@@ -79,6 +79,7 @@ class ParticleFilter {
                      const std::vector<LandmarkObs> &observations,
                      const Map &map_landmarks);
   
+  
   /**
    * resample Resamples from the updated set of particles to form
    *   the new set of particles.
